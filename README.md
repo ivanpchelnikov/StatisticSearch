@@ -8,7 +8,7 @@ Clone the code files from
 1. git clone https://github.com/ivanpchelnikov/StatisticSearch.git
 2. Build API in the Visiual Studio or from CLI inside solution folder: StatisticSearch:
       <b>run dotnet</b>
-3. Build client:"
+3. If client fails to auto build, please, build client:"
 	   cd StatisticSearch\StaticSearch\ClientApp
 	   npm install
 
