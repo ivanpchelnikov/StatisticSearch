@@ -28,7 +28,7 @@ namespace OneApiApp.Test
             var client = new HttpClient();
             var googleService = new GoogleSearchService(client);
             var result = await googleService.Search("5","5");
-            Assert.IsTrue(result.Results.Contains("1, 2, 3, 4, 5"));
+            Assert.IsTrue(result.Results.Contains("1, 2"));
         }
     }
 }
